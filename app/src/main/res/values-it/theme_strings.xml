@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_theme">Tema</string>
+    <string name="ui_theme_light">Chiaro</string>
+    <string name="ui_theme_dark">Scuro</string>
+</resources>

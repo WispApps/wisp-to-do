@@ -1,0 +1,9 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="26%"
+    android:insetTop="26%"
+    android:insetRight="26%"
+    android:insetBottom="26%">
+    <bitmap android:src="@drawable/wisp_original"
+        android:gravity="fill"
+        android:filter="true" />
+</inset>

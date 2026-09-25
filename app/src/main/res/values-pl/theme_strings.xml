@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_theme">Motyw</string>
+    <string name="ui_theme_light">Jasny</string>
+    <string name="ui_theme_dark">Ciemny</string>
+</resources>

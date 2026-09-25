@@ -1,0 +1,1 @@
+First release: projects, lists, task reminders, encrypted export and import, and encrypted Nextcloud backup.

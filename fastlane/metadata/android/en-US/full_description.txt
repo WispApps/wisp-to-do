@@ -1,0 +1,10 @@
+Wisp To Do is a private, offline-first task organizer.
+
+• Create projects, lists and tasks.
+• Set date and time reminders.
+• Mark tasks as favorites and search lists and tasks.
+• Export and import AES-256-GCM encrypted archives protected by your recovery phrase.
+• Upload and restore encrypted backups using a Nextcloud WebDAV server you control.
+• Choose a light or dark theme and one of ten interface languages.
+
+Your tasks are stored locally unless you explicitly export them or use the Nextcloud backup. Cloud transfers contain encrypted backup data.

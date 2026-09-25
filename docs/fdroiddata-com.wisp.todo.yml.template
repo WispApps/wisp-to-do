@@ -1,0 +1,13 @@
+Categories:
+  - Office
+License: GPL-3.0-or-later
+AuthorName: WispApps
+SourceCode: https://gitlab.com/wispapps/wisp-to-do
+IssueTracker: https://gitlab.com/wispapps/wisp-to-do/-/issues
+RepoType: git
+Repo: https://gitlab.com/wispapps/wisp-to-do.git
+Builds:
+  - versionName: 0.1.0
+    versionCode: 1
+    commit: v0.1.0
+    gradle: yes
