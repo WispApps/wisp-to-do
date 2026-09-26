@@ -92,4 +92,5 @@
     <string name="ui_source_gitlab">Исходный код на GitLab</string>
     <string name="ui_source_github">Исходный код на GitHub</string>
     <string name="ui_gpl_license">Лицензия GNU GPL</string>
+    <string name="ui_notifications_allowed">Уведомления уже разрешены</string>
 </resources>

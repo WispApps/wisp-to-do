@@ -92,4 +92,5 @@
     <string name="ui_source_gitlab">GitLab source</string>
     <string name="ui_source_github">GitHub source</string>
     <string name="ui_gpl_license">GNU GPL license</string>
+    <string name="ui_notifications_allowed">Notifications are already allowed</string>
 </resources>

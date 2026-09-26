@@ -112,6 +112,7 @@ object UiLanguage {
         "Слово №24" to R.string.ui_word_last,
         "Напоминания" to R.string.ui_notifications,
         "Разрешить напоминания" to R.string.ui_allow,
+        "Уведомления уже разрешены" to R.string.ui_notifications_allowed,
         "Продолжить без уведомлений" to R.string.ui_skip,
         "Разрешение нужно для напоминаний о задачах. Вы можете включить уведомления позже в настройках Android." to R.string.ui_notification_help,
         "Передача завершена" to R.string.ui_transfer_ok,
