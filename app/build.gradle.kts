@@ -19,14 +19,32 @@ android {
         applicationId = "com.wisp.todo"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "0.1.1"
+    }
+    buildTypes {
+        getByName("release") {
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "src/main/keepRules/rules.keep"
+            )
+        }
+        create("r8Test") {
+            initWith(getByName("release"))
+            applicationIdSuffix = ".r8test"
+            versionNameSuffix = "-r8test"
+            signingConfig = signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
+        }
     }
     buildFeatures { compose = true; buildConfig = true }
     packaging { resources.excludes += "/META-INF/{AL2.0,LGPL2.1}" }
 }
 
 dependencies {
+    implementation("com.google.errorprone:error_prone_annotations:2.36.0")
     implementation("androidx.core:core-ktx:1.15.0")
     val room = "2.6.1"
     implementation(platform("androidx.compose:compose-bom:2024.12.01"))
@@ -45,5 +63,4 @@ dependencies {
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
-
 

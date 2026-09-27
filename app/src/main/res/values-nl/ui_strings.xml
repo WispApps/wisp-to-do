@@ -75,4 +75,5 @@
     <string name="ui_source_gitlab">Broncode op GitLab</string>
     <string name="ui_source_github">Broncode op GitHub</string>
     <string name="ui_gpl_license">GNU GPL-licentie</string>
+    <string name="ui_notifications_allowed">Meldingen zijn al toegestaan</string>
 </resources>

@@ -75,4 +75,5 @@
     <string name="ui_source_gitlab">Codice sorgente su GitLab</string>
     <string name="ui_source_github">Codice sorgente su GitHub</string>
     <string name="ui_gpl_license">Licenza GNU GPL</string>
+    <string name="ui_notifications_allowed">Le notifiche sono già consentite</string>
 </resources>
